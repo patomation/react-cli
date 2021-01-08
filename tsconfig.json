@@ -1,0 +1,14 @@
+{
+  "extends": "tsconfigs/nodejs-executable",
+  "compilerOptions": {
+    "outDir": "build",
+    "lib": ["dom"],
+  },
+  "include": [
+    "src/**/*",
+    "src/types/*.d.ts"
+  ],
+  "exclude": [
+    "src/**/*.test.ts"
+  ]
+}

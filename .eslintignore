@@ -1,0 +1,6 @@
+dist
+lib
+build
+*\ copy*
+Component
+temp

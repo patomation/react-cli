@@ -1,0 +1,12 @@
+{
+  "extends": "tsconfigs/nodejs-executable",
+  "compilerOptions": {
+    "outDir": "build",
+    "lib": ["dom"],
+    "jsx": "react",
+    "types": ["jest"]
+  },
+  "include": [
+    "templates/**/*"
+  ]
+}
