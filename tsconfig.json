@@ -6,7 +6,7 @@
   },
   "include": [
     "src/**/*",
-    "src/types/*.d.ts"
+    "templates/types/*.d.ts"
   ],
   "exclude": [
     "src/**/*.test.ts"
